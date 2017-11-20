@@ -1,6 +1,8 @@
 import React from 'react';
 import { Text, View, Button } from 'react-native';
 import { StackNavigator } from 'react-navigation';
+import AnyTextInput from './TextInput';
+
 
 class HomeScreen extends React.Component {
     static navigationOptions = {
@@ -26,9 +28,9 @@ class ChatScreen extends React.Component {
     render() {
         const { params } = this.props.navigation.state;
         return (
-
             <View>
                 <Text>Let`s chat, {params.user}</Text>
+                <AnyTextInput />
             </View>
         );
     }

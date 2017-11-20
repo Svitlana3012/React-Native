@@ -1,7 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button, AppRegistry } from 'react-native';
-import { StackNavigator } from 'react-navigation';
-import { DrawerNavigator } from 'react-navigation';
+import { StyleSheet } from 'react-native';
 import RootDrawer from './DrawerNavigator';
 
 
