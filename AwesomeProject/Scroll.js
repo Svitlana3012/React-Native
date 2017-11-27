@@ -18,51 +18,60 @@ export default class MyScroll extends React.Component {
             <ScrollView
                 horizontal
                 contentContainerStyle={styles.contentContainer} >
+                <View style={{marginRight: 16}}>
                 <Button
                     style={styles.buttons}
                     title="Rock"
                     onPress={() => console.log('Pressed!')}
-                />
+                /></View>
+                <View style={{marginRight: 16}}>
                 <Button
                     style={styles.buttons}
                     title="Pop"
                     onPress={() => console.log('Pressed!')}
-                />
+                /></View>
+                <View style={{marginRight: 16}}>
                 <Button
                     style={styles.buttons}
-                    title="Etc"
+                    title="Symphony"
                     onPress={() => console.log('Pressed!')}
-                />
+                /></View>
+                <View style={{marginRight: 16}}>
                 <Button
                     style={styles.buttons}
-                    title="Rock"
+                    title="Hip Hop"
                     onPress={() => console.log('Pressed!')}
-                />
+                /></View>
+                <View style={{marginRight: 16}}>
                 <Button
                     style={styles.buttons}
-                    title="Rock"
+                    title="Jazz"
                     onPress={() => console.log('Pressed!')}
-                />
+                /></View>
+                <View style={{marginRight: 16}}>
                 <Button
                     style={styles.buttons}
-                    title="Rock"
+                    title="Blues"
                     onPress={() => console.log('Pressed!')}
-                />
-                <Button
-                    style={styles.buttons}
-                    title="Rock"
-                    onPress={() => console.log('Pressed!')}
-                />
-                <Button
-                    style={styles.buttons}
-                    title="Rock"
-                    onPress={() => console.log('Pressed!')}
-                />
+                /></View>
+                <View style={{marginRight: 16}}>
                 <Button
                     style={styles.buttons}
                     title="Rock"
                     onPress={() => console.log('Pressed!')}
-                />
+                /></View>
+                <View style={{marginRight: 16}}>
+                <Button
+                    style={styles.buttons}
+                    title="Rock"
+                    onPress={() => console.log('Pressed!')}
+                /></View>
+                <View style={{marginRight: 16}}>
+                <Button
+                    style={styles.buttons}
+                    title="Rock"
+                    onPress={() => console.log('Pressed!')}
+                /></View>
             </ScrollView>
         )
     }
@@ -73,11 +82,10 @@ const styles = StyleSheet.create({
         paddingVertical: 50,
         height: 300,
         backgroundColor: '#97CAE5',
+
     },
     buttons: {
-        width: 50,
-        height:50,
-        marginLeft:50
+
     }
 
 });
