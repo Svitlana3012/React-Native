@@ -1,20 +1,19 @@
 import React from 'react';
-import { StyleSheet } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import RootDrawer from './DrawerNavigator';
+import MyScroll from './Scroll';
 
-
-// const SimpleApp = DrawerNavigator({
-//     Home: { screen: RootDrawer,
-//         navigationOptions: {
-//             title: 'Home',
-//         },
-//     },
-//     Chat: { screen: ChatScreen },
-// });
 
 export default class App extends React.Component {
     render() {
-        return <RootDrawer />;
+        return (
+            <View>
+                <RootDrawer />
+                <MyScroll />
+
+            </View>
+            )
+
     }
 }
 
